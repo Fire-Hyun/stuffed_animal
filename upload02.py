@@ -1,7 +1,7 @@
 import ftplib
 import os
 
-filename = "2018_10_29"
+filename = "2018_10_29.mp4"
 ftp = ftplib.FTP()
 ftp.connect("tndusdl73.cafe24.com", 21)    #Ftp 주소 Connect(주소 , 포트)
 ftp.login("tndusdl73", "qlalf357")         #login (ID, Password)
