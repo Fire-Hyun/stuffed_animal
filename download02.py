@@ -1,7 +1,7 @@
 import ftplib
 import os
 
-filename = "book.mp4"
+filename = "book.mp3"
 ftp = ftplib.FTP()
 ftp.connect("tndusdl73.cafe24.com",21)
 ftp.login("tndusdl73","qlalf357")
